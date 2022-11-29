@@ -1,0 +1,177 @@
+@import url('https://fonts.googleleapis.com/css2?family=Open+sans&display=swap');
+body
+{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+/*Navigation*/
+nav
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+}
+
+nav h1
+{
+    font-size: 20px;
+}
+nav .onglets
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav .onglets p
+{
+    font-size: 17px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+nav .onglets input
+{
+    margin: 8px 20px;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    background-color: #f2f2f2;
+}
+
+nav .im
+{
+    align-content: center;
+}
+/*fin de navigation*/
+
+/*L'entête*/
+
+header
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header h1
+{
+    font-size: 50px;
+    max-width: 500px;
+    text-align: center;
+}
+
+header button
+{
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+/*fin de l'entête*/
+
+/* Partie principale */
+.main
+{
+    margin: 20px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Sous partie*/
+.cards
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cards .card
+{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+ul
+{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 20px;
+}
+.cards .card img
+{
+    width: 350px;
+    list-style-type: none;
+    margin-right: 10px;
+    border: solid 2px #ddd;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards .card .entête-card
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.leye
+{
+    margin-top: -10px;
+}
+/* Fin de Sous partie*/
+
+/* Vidéo de presentation*/
+
+.main .video
+{
+    margin-top: 80px;
+    width: 90%;
+}
+
+.main .video iframe
+{
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    height: 400px;
+}
+/* Fin de la Vidéo de presentation*/
+/* Fin de Partie principale */
+ /*Pied de page*/
+
+ footer
+ {
+    margin-top: 100px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+ }
+ footer .social-media 
+ {
+    display: flex;
+ }
+.sou
+ {
+    margin-right: 15px;
+    padding: 5px;
+    float: left;
+    text-align: center;
+    width: 20px;
+ }
+ /*fin*/
+
